@@ -1,0 +1,179 @@
+/**
+ ********************************* Created by Vika Frantsuh on 10.11.2018**************************************
+ */
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #a9a9a9;
+    padding: 0 5px 5px 5px;
+}
+/*********************HEADER****************************/
+header{
+   
+    text-align: center;
+    width: auto;
+    height: 200px;
+    background-color: #54d454;
+    /*border: 2px solid red;*/
+}
+/*-----------LOGO-----------*/
+ #logo_text h1{
+    padding: 45px;
+  /*  background-color: yellow;*/
+}
+ 
+#imgLogo{
+    position: fixed;
+    top:30px;
+    right: 20px;
+}
+
+/*-----------MENU-----------*/
+.menu{
+    margin: 5px 0 0 0;
+    padding: 10px 10px 0 10px;
+    /*background: red;*/
+   
+}
+
+.menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: #29e929;
+    border-radius: 2px;
+    
+}
+.menu ul li{
+    display: inline-block;
+    width: 150px;
+   /* background: yellow;*/
+}
+.menu ul li a{
+    display: block;
+    /*background: #b24b00;*/
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+    opacity: 1;
+}
+.menu ul li a:hover {
+    background-color: #cfc8b5;
+    opacity: 0.6;
+}
+/*----------------------*/
+
+
+
+
+
+/*********************CONTENT****************************/
+ main{
+     
+ }
+ 
+
+.content_section{
+    display: block;
+    width: auto;
+    height: auto;
+    margin: 10px 0 0 0;
+    padding: 10px;
+    background-color: #54d454;
+    overflow: auto;
+   
+   
+    
+    
+}
+.content_left{
+    display: inline-block;
+    text-align: center;
+    width: 70%;
+    /*border:5px solid black;*/
+    background-color: #29e929;
+    border-radius: 2px;
+    margin-right: 15px;
+    padding: 10px 0;
+   
+}
+
+.content_right{
+    display: inline-block;
+    position: absolute;
+    width: 28%;
+    text-align: center;
+    background-color: #29e929;
+    border-radius: 2px;
+    padding: 5px;
+    clear: both;
+  
+   /* border:5px solid red;*/
+}
+/**********SECTION LEFT************/
+.content_section h1{
+    font-size: 30px;
+   /* background-color: yellow;*/
+    padding: 50px 0;
+    
+    
+}
+#favorite_text{
+    padding: 42px 0;
+}
+#first_text{
+   /* background-color: orange;*/
+    text-align: left;
+    font-size: 18px;
+    padding: 0 50px 50px 5px;
+}
+
+#second_text{
+  /*  background-color: mediumvioletred;*/
+    text-align: left;
+    font-size: 18px;
+    padding:0 50px 220px 5px;
+}
+
+/**********GALLERY************/
+.gallery{
+    display: block;
+    background-color: mediumvioletred;
+    padding-left: 5px;
+    
+}
+.box img{
+    
+    display: inline-block;
+    float: left;
+   /* background-color: orange;*/
+    padding-bottom: 5px;
+    width: 50%;
+    height: 168px;
+}
+
+
+
+
+/*************************************************/
+
+
+/*********************************************************************FOOTER****************************/
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 5px;
+    width: 100%;
+    height: 15% ;
+    padding-top: 10px;
+    background: #54d454;
+}
+#text_footer{
+    padding-bottom: 20px;
+    font-style: normal;
+    font-size: 16px;
+}
